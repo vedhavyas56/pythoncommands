@@ -1,0 +1,75 @@
+ip a - to see  ip addresshostname
+hostanmectl
+hostnamectl set-hostname ----
+su root
+exec bash 
+yum update -y  (to update server 
+touch (to create a file 
+ll   (to the present files in long format)
+ll -a (to see hidden and normal files)
+ls    ( to see the files in short format)
+rm    ( to remove the files)
+rm -rf (to remove the directory files)
+history (to see the history)
+mkdir (to create a directory)
+cat >filename (to create a file and to give data)
+cat >>filename (to give data in a file) 
+cat file name (to see data present in file) 
+vim - is used to modify data in a file
+      i - is used to insert data in file
+      esc -escape
+      q- to exit from the the vim without saving
+      w- to save data and stay there
+      wq-to save data and exit from the vim
+      wq!-to save and exit from vim forcefully
+pwd (present working directory)
+cd  (change directory)
+cat /etc/os -r
+cat /etc/redhat -r
+uname -r
+uname -a
+whoami
+who
+useradd newusername 
+passwd username
+last
+git clone (to clone the repository)
+git status(to see files present in stage
+git add filename  (to only one file from working to staging)
+git add filename filename(to add multiple files)
+git add  --a(to add all files)
+git add .(to add hidden and normal files)
+git add  p* a* B* C* V*
+git reset (to unstage all files)
+git reset filename (to unstage single filename)
+git reset filename filename (to unstage multiple files)
+git config --global user.name
+git congig --global user.email
+git commit -m"message"-  filename (to commit single file)  
+git commit -m"message" filename filename(to commit multiple file)
+git commit -m"message " (to commit all file )
+git commit -am "message"(to commit all modified and deleted files from working directory and all staged files)
+git show ( to see the latest commit)
+git reset --soft HEAD( to call back commited files to staging )
+git log filename -to see how many commits
+git diff
+git diff filename 
+git reset --hard HEAD(to remove latest commited files)
+git branch (used to see branch 
+git granch -m (to modify the branch name) 
+git branch -d ( to delete the branch )
+git checkout branch name (to shift from one brach  to otherr branch )
+git checkout -b -( to create a branch and shift to future branch)
+git push origin -u future branch
+git merge branch name 
+git pull 
+git fetch 
+git rebase 
+git merge 
+git push tag
+git stash
+git stash pop id 
+git stash pop 
+git stash drop 
+git stash clean
+
