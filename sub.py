@@ -1,3 +1,5 @@
-fruits = {'apple', 'banana', 'cherry'}
-fruits.add('orange') 
-print(fruits)
+a=10 
+b=20 
+c=a+b 
+print("sum of the values are ",c)
+
