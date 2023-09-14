@@ -1,5 +1,5 @@
-a=9
-b=20  
-c=30 
+a=30 
+b=40 
+c=500 
 d=a+b*c 
-print("the sum of three values are ",d)
+print("the sumj of three values are ",d)
