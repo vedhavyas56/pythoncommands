@@ -6,7 +6,7 @@ d=100
 add=a+d 
 sub=b-c 
 mul=c*a 
-div=d\a 
+div=d/c 
 mudl=a%d 
 pow=d**a 
 print ("\n the addition of two values",add) 
