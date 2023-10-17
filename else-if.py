@@ -1,4 +1,4 @@
-number=24
+number=int(input("enter number :"))
 if number > 0 :
     print("postive number")
 elif number == 0 :
