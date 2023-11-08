@@ -6,10 +6,11 @@ print(result)
 item='pen'
 if items in items:
     result=item.index("item")
-    print(f"thr (item)has an indexof {result}")
+    print(f"thr (item)has an index of {result}")
 else:
     print(f"{item} does't existin the given list.")
     
+
 items=['pen','paper','mobile','tv','mouse','fan']  
 print("\n printing the values by using iter")
 items_iter=iter(items)
