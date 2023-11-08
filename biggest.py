@@ -6,6 +6,6 @@ biology=90
 total=telugu+english+maths+biology
 print("the sum of the value are",total)
 average=total/5
-print("result",average)
+print("percentage",average)
 highestvalue=biology
-print("result",highestvalue)
+print("highest mark of all subjects",highestvalue)

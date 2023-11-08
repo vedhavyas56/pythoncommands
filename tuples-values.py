@@ -30,7 +30,6 @@ def sort_key(company):
 companies.sort(key=sort_key,reverse=True)
 print(companies)
 
-
 companies=[('tcs','2019','13.98')
            ,('apple','400','26.03')
            ,('hand book','2010','80.48')]
